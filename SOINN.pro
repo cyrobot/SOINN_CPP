@@ -47,8 +47,8 @@ LIBS += -L/usr/local/lib \
 unix {
 
 # OpenCV
-INCLUDEPATH += /usr/local/include/opencv2
-LIBS += -L/usr/local/lib \
+INCLUDEPATH += /usr/include/opencv2
+LIBS += -L/usr/lib/i386-linux-gnu \
   -lopencv_calib3d \
   -lopencv_contrib \
   -lopencv_core \
@@ -59,7 +59,6 @@ LIBS += -L/usr/local/lib \
   -lopencv_imgproc \
   -lopencv_legacy \
   -lopencv_ml \
-  -lopencv_nonfree \
   -lopencv_objdetect \
   -lopencv_photo \
   -lopencv_stitching \
